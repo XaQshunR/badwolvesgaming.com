@@ -1,0 +1,11 @@
+main:
+  - title: Discord
+    url: link-to-discord-here
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /posts/
+  - title: "Games We Play"
+    url: /games-we-play/
+  - title: System Status
+    url: https://status.badwolves.games
