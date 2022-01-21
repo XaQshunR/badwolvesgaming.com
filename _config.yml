@@ -34,6 +34,7 @@ minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon
 logo: "/assets/images/logo.png"
 include: ["_pages"]
 exclude: [README.md]
+words_per_minute: 250
 defaults:
   # _pages
   - scope:
@@ -42,17 +43,33 @@ defaults:
     values:
       layout: single
       author_profile: false
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+      tags: true
+collections:
+  announcements:
+    output: true
+    permalink: /:collection/:path/
 footer:
   links:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg"
     - label: "System Status"
-      icon: "fas fa-fw fa-server"
+      icon: "fas fa-fw fa-chart-area"
       url: "https://status.badwolves.games"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/bad-wolves"
+    - label: "Server Admin"
+      icon: "fas fa-fw fa-server"
+      url: "https://panel.badwolves.games"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

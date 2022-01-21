@@ -1,9 +1,9 @@
 main:
   - title: Join
-    url: link-to-discord-here
+    url: "https://discord.gg/JW6jFXdkdx"
   - title: "About"
     url: /about/
-  - title: "Games We Play"
-    url: /games/
-#  - title: System Status
-#    url: https://status.badwolves.games
+  - title: "Posts"
+    url: /posts/
+  - title: "Games We Host"
+    url: /hosted/
