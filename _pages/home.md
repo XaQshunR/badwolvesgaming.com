@@ -10,7 +10,7 @@ header:
   show_overlay_excerpt: true
   actions:
     - label: Join The Pack
-      url: "https://discord.gg/JW6jFXdkdx"
+      url: "/join/"
 ---
 
 ## Games We Play

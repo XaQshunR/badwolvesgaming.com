@@ -17,7 +17,6 @@ game servers our community is able to experience online multiplayer games in mor
 |:---|:---:|---|
 |[TNP Limitless 3](https://www.curseforge.com/minecraft/modpacks/tnp-limitless-3)|1.16.5|A large modpack with quests, QoL improvements, new blocks, machines, and much, much more.|
 |[Enigmatica 8](https://www.curseforge.com/minecraft/modpacks/enigmatica8/files/3550876)| 1.18.1  |A simple modpack|
-|The Pickle Jar| 1.16.5  | A private, vanilla, long term server for community cooporative building.|
 
 ## Requests
 

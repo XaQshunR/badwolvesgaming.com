@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
+  - jekyll-redirect-from
 minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 logo: "/assets/images/logo.png"
 include: ["_pages"]
@@ -55,15 +56,11 @@ defaults:
       share: false
       related: true
       tags: true
-collections:
-  announcements:
-    output: true
-    permalink: /:collection/:path/
 footer:
   links:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg"
+      url: "https://discord.gg/JW6jFXdkdx"
     - label: "System Status"
       icon: "fas fa-fw fa-chart-area"
       url: "https://status.badwolves.games"

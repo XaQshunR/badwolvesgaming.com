@@ -4,7 +4,7 @@ permalink: /about/
 title: About The Pack
 ---
 
-The Bad Wolves Community is an 18+ gaming community designed by gamers, for gamers both casual and hardcore. We melt our
+The Bad Wolves Community is an 18+ gaming community designed by gamers, for gamers both casual and hardcore. We meld our
 playstyles together to compliment each other with a focus on co-operative team and group play, with of course
 competitive tendencies. We do not require members to play any particular way in order to be a member. We have members
 that at times do not participate in any of the games we play and are around just for the camaraderie. We like to operate
@@ -31,11 +31,16 @@ This is self explanatory, if you don't understand you should just leave.
 
 ### Bad Wolves is a community of adult gamers who work as a team, we are not for lone wolves or glory hounds
 
-We are a selfless community that works to protect and grow through teamwork. selfish mentalities are not welcome here. The community is normally good at providing an environment that discourages the selfish and egotistical but sometimes they can be thick skulled and will need to be culled from time to time. If you loot whore, roll on side grades when items are a significant upgrade for others, gloat and laud over your fellow members or practice exclusionary behaviors, you are a clear example of what we are not looking for.
+We are a selfless community that works to protect and grow through teamwork. selfish mentalities are not welcome here.
+The community is normally good at providing an environment that discourages the selfish and egotistical but sometimes
+they can be thick skulled and will need to be culled from time to time. If you loot whore, roll on side grades when
+items are a significant upgrade for others, gloat and laud over your fellow members or practice exclusionary behaviors,
+you are a clear example of what we are not looking for.
  
 ### Do not shout, scream or use voice modifying software over VOIP
 
-We are adults and all communication should be carried on as maturely as possible, nobody wants their eardrums assaulted by some neckbeard. 
+We are adults and all communication should be carried on as maturely as possible, nobody wants their eardrums assaulted
+by some neckbeard. 
 
 ### Bring something to the community
 
