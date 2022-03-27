@@ -21,8 +21,8 @@
 title: Bad Wolves Gaming
 description: >- # this means to ignore newlines until "baseurl:"
   Bad Wolves Gaming
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.badwolvesgaming.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
