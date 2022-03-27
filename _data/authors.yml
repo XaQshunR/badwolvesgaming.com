@@ -1,7 +1,11 @@
 Fatetaker:
   name        : "Fatetaker"
   bio         : "Bad Wolves Founder"
-  avatar      : "/assets/images/author-profile/fatetaker.jpg"
+  avatar      : "/assets/images/author-profile/fatetaker.png"
+  links:
+  - label: "Twitch"
+    icon: "fab fa-fw fa-twitch"
+    url: "https://www.twitch.tv/fatetaker"
 dy1io:
   name        : "dy1io"
   bio         : |-

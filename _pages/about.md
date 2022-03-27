@@ -2,6 +2,10 @@
 type: page
 permalink: /about/
 title: About The Pack
+author: "Fatetaker"
+toc: true
+toc_label: "Pack Code of Conduct"
+toc_icon: fas fa-fw fa-gavel
 ---
 
 Bad Wolves Gaming is an international non-politically correct adult community
