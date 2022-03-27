@@ -63,7 +63,7 @@ footer:
       url: "https://discord.gg/JW6jFXdkdx"
     - label: "System Status"
       icon: "fas fa-fw fa-chart-area"
-      url: "https://status.badwolves.games"
+      url: "https://status.badwolvesgaming.com"
     - label: "Server Admin"
       icon: "fas fa-fw fa-server"
       url: "https://panel.badwolves.games"
