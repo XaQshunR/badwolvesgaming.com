@@ -9,15 +9,6 @@ enables us to easily create game worlds for our members. Some members also run t
 our officially supported system for the pack to enjoy. We believe that by making it easy for members to host private
 game servers our community is able to experience online multiplayer games in more unique and engaging ways.
 
-## Currently Playing
-
-### Minecraft
-
-|Name|Version|Description|
-|:---|:---:|---|
-|[TNP Limitless 3](https://www.curseforge.com/minecraft/modpacks/tnp-limitless-3)|1.16.5|A large modpack with quests, QoL improvements, new blocks, machines, and much, much more.|
-|[Enigmatica 8](https://www.curseforge.com/minecraft/modpacks/enigmatica8/files/3550876)| 1.18.1  |A simple modpack|
-
 ## Requests
 
 We accept requests for game servers that the pack wants to play. If you are an active member and would like to
