@@ -1,7 +1,7 @@
 ---
 type: page
-permalink: /hosted/
-title: Games We Host
+permalink: /hosting/
+title: Games Hosting
 ---
 
 Bad Wolves maintains a community-ran game server hosting platform built on [Pterodactyl](https://pterodactyl.io). This 
