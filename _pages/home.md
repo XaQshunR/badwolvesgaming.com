@@ -1,7 +1,7 @@
 ---
 layout: splash_home
 permalink: /
-title: Bad Wolves
+title: Bad Squirrels
 excerpt: "18+ Online Gaming Community"
 header:
   #overlay_color: "#f21368"
