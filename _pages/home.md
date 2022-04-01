@@ -1,12 +1,12 @@
 ---
 layout: splash_home
 permalink: /
-title: Bad Wolves
+title: Bad Squirrels
 excerpt: "18+ Online Gaming Community"
 header:
   #overlay_color: "#f21368"
   overlay_filter: "0.25"
-  overlay_image: /assets/images/banner.png
+  overlay_image: /assets/images/squirrel-banner.png
   show_overlay_excerpt: true
   actions:
     - label: Join The Pack

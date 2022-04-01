@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bad Wolves Gaming
+title: Bad Squirrels Gaming
 description: >- # this means to ignore newlines until "baseurl:"
-  Bad Wolves Gaming
+  Bad Squirrels Gaming
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.badwolvesgaming.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -32,7 +32,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-redirect-from
 minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-logo: "/assets/images/logo.png"
+logo: "/assets/images/squirrels.gif"
 include: ["_pages"]
 exclude: [README.md]
 words_per_minute: 250
