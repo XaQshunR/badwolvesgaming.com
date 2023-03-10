@@ -13,13 +13,13 @@ header:
       url: "/join/"
 ---
 
-## Games We Play
+## Find Us On
 {:games: style="text-align: center;" height="50px"}
-![Lost Ark](/assets/images/game-logos/lostark.png "Lost Ark"){:width="200px"}
+![Elder Scrolls Online](/assets/images/game-logos/eso.png "Lost Ark"){:width="200px"}
 [![Star Citizen](/assets/images/game-logos/sc.png "Star Citizen"){: width="200px"}](https://robertsspaceindustries.com/orgs/BADWOLVES)
 ![Minecraft](/assets/images/game-logos/minecraft.png "Minecraft"){:width="200px"}
 ![Ark](/assets/images/game-logos/ark.png "Ark"){:width="200px"}
 ![Stellaris](/assets/images/game-logos/stellaris.png "Stellaris"){:width="200px"}
 ![World of Warcraft](/assets/images/game-logos/wow.png "World of Warcraft"){:width="200px"}
-<br/>and more...
+<br/>
 {:games}
