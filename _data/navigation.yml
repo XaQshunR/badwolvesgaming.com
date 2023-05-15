@@ -1,7 +1,7 @@
 main:
   - title: Join
     url: "/join/"
-  - title: "About"
-    url: /about/
+  - title: About
+    url: "#about"
   - title: "Posts"
     url: /posts/
