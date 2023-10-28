@@ -1,6 +1,7 @@
 Fatetaker:
   name        : "Fatetaker"
-  bio         : "Bad Wolves Founder"
+  bio         : |-
+    Bad Wolves Founder
   avatar      : "/assets/images/author-profile/fatetaker.png"
   links:
   - label: "Twitch"
@@ -9,6 +10,6 @@ Fatetaker:
 dy1io:
   name        : "dy1io"
   bio         : |-
-    Bad Wolves Community Guardian\\
+    Bad Wolves Council\\
     aka: Lumiaris
-  avatar      : "/assets/images/author-profile/dy1io.jpeg"
+  avatar      : "/assets/images/author-profile/dy1io.png"
