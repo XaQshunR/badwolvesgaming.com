@@ -60,13 +60,10 @@ footer:
   links:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/JW6jFXdkdx"
+      url: "https://badwolvesgaming.com/join"
     - label: "System Status"
       icon: "fas fa-fw fa-chart-area"
       url: "https://status.badwolvesgaming.com"
-    - label: "Server Admin"
-      icon: "fas fa-fw fa-server"
-      url: "https://panel.badwolves.games"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
