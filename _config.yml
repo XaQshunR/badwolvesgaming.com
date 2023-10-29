@@ -93,16 +93,16 @@ prose:
         field:
           element: "hidden"
           value: CURRENT_USER
-    ../_pages:
-      - name: "type"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
+    # _pages:
+    #   - name: "type"
+    #     field:
+    #       element: "hidden"
+    #       value: "page"
+    #   - name: "permalink"
+    #     field:
+    #       element: "text"
+    #       label: "Permalink"
+    #       value: ""
   users:
     - login: "fatetaker"
       user: "Fatetaker"
