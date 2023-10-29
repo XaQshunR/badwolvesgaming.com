@@ -57,7 +57,7 @@ defaults:
       related: true
       tags: true
 prose:
-  rooturl: '/'
+  rooturl: '_posts'
   siteurl: 'http://badwolvesgaming.com'
   relativeLinks: 'http://badwolvesgaming.com/links.jsonp'
   media: 'assets/posts'
@@ -93,16 +93,6 @@ prose:
         field:
           element: "hidden"
           value: CURRENT_USER
-    _pages:
-      - name: "tyope"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
   users:
     - login: "fatetaker"
       user: "Fatetaker"
