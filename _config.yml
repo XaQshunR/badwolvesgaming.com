@@ -57,10 +57,10 @@ defaults:
       related: true
       tags: true
 prose:
-  rooturl: '_posts'
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'media'
+  rooturl: '/'
+  siteurl: 'http://badwolvesgaming.com'
+  relativeLinks: 'http://badwolvesgaming.com/links.jsonp'
+  media: 'assets/posts'
   ignore:
     - README.md
     - /_data
@@ -71,10 +71,10 @@ prose:
     - /_includes
   metadata:
     _posts:
-      - name: "layout"
+      - name: "type"
         field:
           element: "hidden"
-          value: "single"
+          value: "post"
       - name: "title"
         field:
           element: "text"
@@ -94,10 +94,10 @@ prose:
           element: "hidden"
           value: CURRENT_USER
     _pages:
-      - name: "layout"
+      - name: "tyope"
         field:
           element: "hidden"
-          value: "single"
+          value: "page"
       - name: "permalink"
         field:
           element: "text"
