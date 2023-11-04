@@ -116,6 +116,9 @@ footer:
     - label: "System Status"
       icon: "fas fa-fw fa-chart-area"
       url: "https://status.badwolvesgaming.com"
+    - label: "Host A Thing"
+      icon: "fas fa-fw fa-server"
+      url: "https://hostathing.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
