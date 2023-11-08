@@ -1,31 +1,12 @@
 ---
 type: page
-permalink: /about/
-title: About The Pack
+permalink: /rules/
+title: Code of Conduct
 author: "Fatetaker"
 toc: true
 toc_label: "Pack Code of Conduct"
 toc_icon: fas fa-fw fa-gavel
 ---
-
-Bad Wolves Gaming is an international non-politically correct adult community
-that is gamer focused. We mesh our playstyles together to compliment each other
-with a focus on social co-operative team and group play, with occasional
-competitive tendencies. We do not require members to play any particular way in
-order to be a member. We have members that at times do not participate in any of
-the games we play and are around just for the camaraderie. We like to operate by
-the idea of if we are not having fun, we are not doing it right. And this goes
-without speaking for every aspect of the Bad Wolf community.
-
-Our team is supported by leadership from many corners of the gaming "multiverse"
-under the shared vision of not only just playing a single game together, but
-staying together no matter the paths and games we end up playing. Many of us
-have too often experienced the fracturing groups of gamers and friends. We hope
-to unite all those who find appeal in our vision so that we may have a community
-in any game our members decide to delve into. So it has become our mission to
-not only unite friends, but to unite them with new friends and new challenges.
-
-## Our Community Mantra (aka the rules)
 
 Not following these simple guidelines will get you removed from Bad Wolves. Our
 rules are basic and non judgmental regardless of our own world, social or
@@ -62,8 +43,8 @@ possible. Nobody wants their eardrums assaulted by some neckbeard.
 
 ### Bring something to the community
 
-Members should be bringing something to the community, whether its
-Steam/Facebook activity, Discord conversation
+Members should be bringing something to the community, whether its gaming with
+us or chatting in Discord, you should participate in the pack.
 
 ### No Political Posting
 
