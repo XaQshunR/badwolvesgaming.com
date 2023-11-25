@@ -15,9 +15,9 @@ header:
 
 ## Some of the games we play
 {:games: style="text-align: center;" height="50px"}
-![Elder Scrolls Online](/assets/images/game-logos/eso.png "Elder Scrolls Online"){:width="200px"}
-[![Star Citizen](/assets/images/game-logos/sc.png "Star Citizen"){: width="200px"}](https://robertsspaceindustries.com/orgs/BADWOLVES)
+[![Star Citizen](/assets/images/game-logos/sc.png "Star Citizen"){: width="200px"}](/star-citizen/)
 ![Minecraft](/assets/images/game-logos/minecraft.png "Minecraft"){:width="200px"}
+![Elder Scrolls Online](/assets/images/game-logos/eso.png "Elder Scrolls Online"){:width="200px"}
 ![Ark](/assets/images/game-logos/ark.png "Ark"){:width="200px"}
 ![Stellaris](/assets/images/game-logos/stellaris.png "Stellaris"){:width="200px"}
 <br/>
