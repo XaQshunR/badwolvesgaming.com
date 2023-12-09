@@ -37,14 +37,13 @@ games:
 
 {% include feature_row id="about" type="left" %}
 
-{% include gallery id="games" layout="third" %}
+<!-- {% include gallery id="games" layout="third" %} -->
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% include documents-collection.html collection=games sort_by=page.sort_by sort_order=page.sort_order type=grid %}
 </div>
 
-## Some games we play
 {:games: style="text-align: center;" height="50px"}
 [![Star Citizen](/assets/images/game-logos/sc.png "Star Citizen"){: width="200px"}](/star-citizen/)
 ![Minecraft](/assets/images/game-logos/minecraft.png "Minecraft"){:width="200px"}

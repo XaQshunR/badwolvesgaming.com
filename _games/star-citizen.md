@@ -14,10 +14,10 @@ intro:
 specialties:
   - image_path: assets/images/star-citizen/scouting.jpg
     title: "Scouting"
-    excerpt: "Conducting covert reconnaissance missions."
+    excerpt: "Conducting covert reconnaissance missions, exploration, and intelligence gathering."
   - image_path: assets/images/star-citizen/infiltration.jpg
     title: "Infiltration"
-    excerpt: "Coordination of quick, targeted infantry and space combat engagements."
+    excerpt: "Coordination of quick, targeted infantry and space combat special engagements."
   - image_path: assets/images/star-citizen/industry.gif
     title: "Industry"
     excerpt: "We support frontier industry and transport efforts with our various outposts and facilities."
@@ -46,8 +46,6 @@ fleetyards:
 ---
 
 {% include feature_row id="intro" type="center" %}
-
-#### We specialize in organizing, leading, and executing a varity of operations:
 
 {% include feature_row id="specialties" %}
 
