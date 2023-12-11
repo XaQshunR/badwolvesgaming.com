@@ -3,6 +3,8 @@ type: page
 permalink: /rules/
 title: Code of Conduct
 author: "Fatetaker"
+sidebar:
+  nav: "about"
 toc: true
 toc_label: "Pack Code of Conduct"
 toc_icon: fas fa-fw fa-gavel

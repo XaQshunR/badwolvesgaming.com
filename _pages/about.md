@@ -2,6 +2,8 @@
 permalink: about
 type: page
 title: About
+sidebar:
+  nav: "about"
 ---
 
 Bad Wolves Gaming is an international, non-politically correct gaming community. 

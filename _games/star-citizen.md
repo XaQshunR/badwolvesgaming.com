@@ -7,7 +7,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: "assets/images/star-citizen/banner.jpg"
   teaser: assets/images/game-logos/sc.png
-excerpt: "Part of the Bad Wolves Gaming community."
+excerpt: "Bad Wolves in Space"
 intro: 
   - excerpt: |
       Bad Wolves Syndicate, a coalition committed to organized teamwork and strategic alliances. Guided by seasoned leadership, we excel in diverse operations—specialized conflicts to industry endeavors. Join us in redefining synergy and excellence. Unleash your potential with Bad Wolves Syndicate!

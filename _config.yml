@@ -31,7 +31,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-redirect-from
-minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "badwolves" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 logo: "/assets/images/logo.png"
 include: ["_pages"]
 exclude: [README.md]

@@ -5,3 +5,11 @@ main:
     url: "/about/"
   - title: "Posts"
     url: /posts/
+about:
+  - title: "About"
+    url: /about/
+    children:
+      - title: Roles
+        url: /roles/
+      - title: "Rules"
+        url: /rules/
