@@ -1,5 +1,5 @@
 ---
-permalink: about
+permalink: /about/
 type: page
 title: About
 sidebar:
