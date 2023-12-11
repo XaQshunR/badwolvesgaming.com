@@ -31,13 +31,20 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-redirect-from
-minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "badwolves" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 logo: "/assets/images/logo.png"
 include: ["_pages"]
 exclude: [README.md]
 words_per_minute: 250
 defaults:
   # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+  # _games
   - scope:
       path: ""
       type: pages
@@ -56,6 +63,10 @@ defaults:
       share: false
       related: true
       tags: true
+collections:
+  games:
+    output: true
+    permalink: /:collection/:path/
 prose:
   rooturl: '_posts'
   siteurl: 'http://badwolvesgaming.com'
@@ -112,10 +123,7 @@ footer:
   links:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
-      url: "https://badwolvesgaming.com/join"
-    - label: "Host A Thing"
-      icon: "fas fa-fw fa-server"
-      url: "https://hostathing.com"
+      url: "https://badwolvesgaming.com/discord"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

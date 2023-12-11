@@ -1,19 +1,49 @@
 ---
-layout: splash_home
+layout: splash
+#hidden: true
 permalink: /
-title: Bad Wolves
-excerpt: "18+ Online Gaming Community"
+excerpt: >
+  18+ Online Community
 header:
   #overlay_color: "#f21368"
   overlay_filter: "0.25"
   overlay_image: /assets/images/banner.png
-  show_overlay_excerpt: true
+  #show_overlay_excerpt: true
   actions:
     - label: Join The Pack
       url: "/join/"
+intro:
+  - excerpt: >
+      A global, unapologetically diverse 18+ community, fostering camaraderie across various games. Rabies delivered daily.
+about:
+  - excerpt: >
+      Learn more about the pack and our history.
+    url: "/about/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+    title: About
+    image_path: assets/images/about.png
+games:
+  - url: /star-citizen/
+    image_path: assets/images/game-logos/sc.png
+    alt: "Star Citizen"
+  - image_path: assets/images/game-logos/minecraft.png
+    alt: "Minecraft"
+  - image_path: assets/images/game-logos/eso.png
+    alt: "Elder Scrolls Online"
 ---
 
-## Some of the games we play
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="about" type="left" %}
+
+<!-- {% include gallery id="games" layout="third" %} -->
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html collection=games sort_by=page.sort_by sort_order=page.sort_order type=grid %}
+</div>
+
 {:games: style="text-align: center;" height="50px"}
 [![Star Citizen](/assets/images/game-logos/sc.png "Star Citizen"){: width="200px"}](/star-citizen/)
 ![Minecraft](/assets/images/game-logos/minecraft.png "Minecraft"){:width="200px"}
@@ -23,19 +53,19 @@ header:
 <br/>
 {:games}
 
-## About
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-Bad Wolves Gaming is an international, non-politically correct gaming community. 
-We do not require members to play any particular way in order to be a member. 
-We have members that at times do not participate in any of the games we play 
-and are around just for the camaraderie. We like to operate by the idea of if 
-we are not having fun, we are not doing it right. And this applies to every 
-aspect of the Bad Wolf community.
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
 
-Our team is supported by leadership from many corners of the gaming "multiverse"
-under the shared vision of not only just playing a single game together, but
-staying together no matter the paths and games we end up playing. Many of us
-have too often experienced the fractured groups of gamers and friends. We hope
-to unite all those who find appeal in our vision so that we may have a community
-in any game our members decide to delve into. So it has become our mission to
-not only unite friends, but to unite them with new friends and new challenges.
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
