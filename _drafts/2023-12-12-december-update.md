@@ -70,7 +70,7 @@ TO BE UPDATED
 ##### Game Package Giveaway
 
 - Be an existing, active member of Bad Wolves
-- Be new to Star Citizen
+- Be new to Star Citizen without a game package
 
 ##### Stand-alone Ship Giveaway
 
