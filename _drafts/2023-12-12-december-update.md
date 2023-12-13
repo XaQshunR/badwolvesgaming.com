@@ -72,7 +72,11 @@ A winner is randomly selected out of the pool of participants. We'll reach out t
 
 - Be an existing, active member of Bad Wolves
 - Already have Star Citizen
-- Have [_Fleet Clearance_](#-fleet-clearance) access role in Discord (more info below)
+- Have [_Fleet Clearance_](#fleet-clearance) access role in Discord (more info below)
+
+### Enlist
+
+If you don't already have a Star Citizen account, please make sure you use our referral code: [**STAR-MLS6-L3PL**](https://robertsspaceindustries.com/enlist?referral=STAR-MLS6-L3PL)
 
 ### Fleet Clearance
 
