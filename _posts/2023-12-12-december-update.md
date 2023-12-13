@@ -1,7 +1,7 @@
 ---
 author: dy1io
 type: post
-published: true
+published: false
 title: December Update & Giveaway
 tags:
   - announcements
