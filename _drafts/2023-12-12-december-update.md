@@ -2,7 +2,7 @@
 author: dy1io
 type: post
 published: false
-title: December Update
+title: December Update & Giveaway
 header:
   image: /assets/posts/Christmas Gift_79385.png
   teaser: /assets/posts/Christmas Gift_79385.png
