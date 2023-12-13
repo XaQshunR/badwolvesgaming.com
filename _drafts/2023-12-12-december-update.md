@@ -9,12 +9,6 @@ header:
 tags:
   - announcements
 ---
-## DRAFT
-
-This update is currently a draft.
-
----
-
 Wolves, welcome to this special holiday update, I hope you're all having a good time out there. I've got a few updates for you and also some info on a community giveaway we're doing for Christmas.
 
 ## Discord Updates
@@ -39,11 +33,9 @@ I've seen quite a few people using these, which is awesome. If you haven't check
 
 We've updated our Server Guide tab with some info about the pack and links. You can also find info about our hosting platform and some of the current game server info is in here too.
 
-## Website & Branding Updates
+## Website Updates
 
 Our website has seen several minor changes recently that bring more of our pack info into the site and off of Discord. The aim is to ensure some of this basic pack info and structure is preserved even outside of Discord. Ultimately our community exists beyond Discord and many of you have seen our transitions between multiple platforms over the years.
-
-### Branding Consistency
 
 We've also put a little time into coming up with some cool logos, banners, etc. that bring some consistency and uniqueness to the Bad Wolves. You should see consistent iconography and colors throughout our website, Discord, and other places, such as Facebook & Spectrum.
 
@@ -63,7 +55,11 @@ We're giving away 1 Star Citizen game package with a copy of the game and the ne
 
 #### How to enter
 
-TO BE UPDATED
+When the giveaways go live, you'll be able to enter by clicking the participate button on the giveaway post in the announcements channel.
+
+#### How to win
+
+A winner is randomly selected out of the pool of participants. We'll reach out to you via DM to send your prize.
 
 #### Eligibility
 
@@ -98,4 +94,3 @@ If you've done both steps and you still don't have access, please ask in Discord
 
 ## Happy Hunting
 And thats it for now, I hope you liked the update.
-
