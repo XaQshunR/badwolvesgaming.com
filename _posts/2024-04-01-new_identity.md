@@ -1,7 +1,7 @@
 ---
 author: dy1io
 type: post
-published: false
+published: true
 title: A New Chapter
 tags:
   - announcements
