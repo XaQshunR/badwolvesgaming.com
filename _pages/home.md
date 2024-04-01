@@ -3,18 +3,18 @@ layout: splash
 #hidden: true
 permalink: /
 excerpt: >
-  18+ Online Community
+  18+ Online Acorn Fan Club
 header:
   #overlay_color: "#f21368"
   overlay_filter: "0.25"
   overlay_image: /assets/images/banner.png
   #show_overlay_excerpt: true
   actions:
-    - label: Join The Pack
+    - label: Help Gather Nuts
       url: "/join/"
 intro:
   - excerpt: >
-      A global, unapologetically diverse 18+ community, fostering camaraderie across various games. Rabies delivered daily.
+      A global, unapologetically diverse 18+ community, fostering camaraderie across various games. Nuts delivered daily.
 about:
   - excerpt: >
       Learn more about the pack and our history.
