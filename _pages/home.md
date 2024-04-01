@@ -14,7 +14,7 @@ header:
       url: "/join/"
 intro:
   - excerpt: >
-      A global, unapologetically diverse 18+ community, fostering camaraderie across various games. Nuts delivered daily.
+      A global, unapologetically diverse 18+ community, fostering camaraderie across various games. Nuts gathered daily.
 about:
   - excerpt: >
       Learn more about the pack and our history.
