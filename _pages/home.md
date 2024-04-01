@@ -17,7 +17,7 @@ intro:
       A global, unapologetically diverse 18+ community, fostering camaraderie across various games. Nuts gathered daily.
 about:
   - excerpt: >
-      Learn more about the pack and our history.
+      Learn more about our love for nuts.
     url: "/about/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
