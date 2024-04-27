@@ -19,7 +19,7 @@ about:
   - excerpt: >
       Learn more about the pack and our history.
     url: "/about/"
-    btn_label: "Learn More"
+    btn_label: "Read More"
     btn_class: "btn--primary"
     title: About
     image_path: assets/images/about.png
