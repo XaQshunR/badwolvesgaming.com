@@ -124,6 +124,9 @@ footer:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://badwolvesgaming.com/discord"
+    - label: "Status"
+      icon: "fa fa-solid fa-chart-line"
+      url: "https://status.badwolvesgaming.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

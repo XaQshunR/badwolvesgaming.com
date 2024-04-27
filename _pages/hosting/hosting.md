@@ -1,17 +1,21 @@
 ---
 permalink: /hosting/
 type: page
-title: Bad Wolves Hosting
+# title: Bad Wolves Hosting
+classes: wide
 sidebar:
+  image: /assets/images/hosting/logo.png
   nav: "hosting"
-about:
+panel:
   - excerpt: >
-      Bad Wolves Hosting is a free server hosting service available to pack members. This enables us to easily create game worlds for our members. Some members also run their own game servers outside of our officially supported system for the pack to enjoy.
+      Bad Wolves Hosting is a free server hosting service available to pack members. Our web panel is easy to use and makes creating game worlds easy.
     url: "https://panel.badwolvesgaming.com"
     btn_label: "Login"
     btn_class: "btn--primary"
-    title: About
+    title: Panel Login
     image_path: assets/images/hosting/logo.png
 ---
 
-{% include feature_row id="about" type="left" %}
+![Under Construction](/assets/images/under-construction.png "Under Construction"){: .text-center}
+
+<!-- {% include feature_row id="panel" type="left" %} -->
