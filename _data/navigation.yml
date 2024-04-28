@@ -14,17 +14,14 @@ about:
       - title: "Rules"
         url: /rules/
 hosting:
-  - title: "Bad Wolves Hosting"
+  - title: "Quick Links"
     children:
       - title: About
         url: /hosting/
       - title: Login
         url: https://panel.badwolvesgaming.com/
-      - title: Invite Discord Bot
+      - title: Documentation
         url: /hosting/
-  - title: Docs
-    children:
-      - title: Under Construction
   - title: Legal
     children:
       - title: Terms of Service
