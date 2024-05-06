@@ -19,17 +19,15 @@ about:
   - excerpt: >
       Learn more about the pack and our history.
     url: "/about/"
-    btn_label: "Read More"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
     title: About
     image_path: assets/images/about.png
 hosting:
   - excerpt: >
-      Bad Wolves Hosting is a free game server hosting service offered to
-      members. No more paying for expensive hosting services to play games
-      together.
+      A dedicated game server hosting platform available for free to pack members.
     url: "/hosting/"
-    btn_label: "Learn More"
+    btn_label: "Check it Out"
     btn_class: "btn--primary"
     title: Bad Wolves Hosting
     image_path: assets/images/hosting/logo_325x650.png
@@ -47,7 +45,7 @@ games:
 
 {% include feature_row id="about" type="left" %}
 
-{% include feature_row id="hosting" type="right" %}
+<!-- {% include feature_row id="hosting" type="right" %} -->
 
 <!-- {% include gallery id="games" layout="third" %} -->
 
