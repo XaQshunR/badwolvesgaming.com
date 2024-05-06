@@ -1,5 +1,5 @@
 ---
 redirect_to:
-  - "https://discord.gg/JW6jFXdkdx"
+  - "https://discord.gg/badwolves"
 permalink: /discord/
 ---
