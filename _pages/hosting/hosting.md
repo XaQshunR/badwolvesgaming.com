@@ -2,7 +2,6 @@
 permalink: /hosting/
 type: page
 classes: wide
-published: false
 sidebar:
   - image: /assets/images/hosting/logo.png
     title: Bad Wolves Hosting
