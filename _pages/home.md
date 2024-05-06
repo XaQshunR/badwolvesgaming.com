@@ -23,6 +23,14 @@ about:
     btn_class: "btn--primary"
     title: About
     image_path: assets/images/about.png
+hosting:
+  - excerpt: >
+      A dedicated game server hosting platform available for free to pack members.
+    url: "/hosting/"
+    btn_label: "Check it Out"
+    btn_class: "btn--primary"
+    title: Bad Wolves Hosting
+    image_path: assets/images/hosting/logo_325x650.png
 games:
   - url: /star-citizen/
     image_path: assets/images/game-logos/sc.png
@@ -36,6 +44,8 @@ games:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="about" type="left" %}
+
+<!-- {% include feature_row id="hosting" type="right" %} -->
 
 <!-- {% include gallery id="games" layout="third" %} -->
 

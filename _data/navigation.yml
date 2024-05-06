@@ -13,3 +13,18 @@ about:
         url: /roles/
       - title: "Rules"
         url: /rules/
+hosting:
+  - title: "Quick Links"
+    children:
+      - title: About
+        url: /hosting/
+      - title: Login
+        url: https://panel.badwolvesgaming.com/
+      - title: Documentation
+        url: /hosting/
+  - title: Legal
+    children:
+      - title: Terms of Service
+        url: /hosting/terms-of-service
+      - title: Privacy Policy
+        url: /hosting/privacy-policy
