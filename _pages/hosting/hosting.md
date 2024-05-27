@@ -46,16 +46,8 @@ supported:
 
 ---
 
-<!-- ![Under Construction](/assets/images/under-construction.png "Under Construction"){: .text-center} -->
-
 Bad Wolves Hosting is a free server hosting service that is available to all pack members. 
 Our goal is to provide a reliable, professional-grade hosting platform for our members to use for playing games together without any of the costs. All pack members, and some of their affiliates are eligible to use the platform entirely for free.
-
-## How it works
-
-Bad Wolves Gaming provides and maintains the web management interface, and provides a number of nodes for hosting game servers. We also provide PanelBot, a Discord bot, that allows you to manage your server from Discord.
-
-Members are also encouraged to host nodes of their own to help contribute to the hosting platform. If you are interested in hosting a node, please reach out to us on Discord, and we will help you get set up.
 
 ## Server Management
 
@@ -66,3 +58,9 @@ Members are also encouraged to host nodes of their own to help contribute to the
 # Supported Games/Applications
 
 {% include gallery id="supported" caption="Just **some** of our supported games and applications, feel free to reach out on Discord if you don't see what you're looking for here. There's a good chance we can get your game up and running." layout="third" %}
+
+## How it works
+
+Bad Wolves Gaming provides and maintains the web management interface, and provides a number of nodes for hosting game servers. We also provide PanelBot, a Discord bot, that allows you to manage your server from Discord.
+
+Members are also encouraged to host nodes of their own to help contribute to the hosting platform. If you are interested in hosting a node, please reach out to us on Discord, and we will help you get set up.

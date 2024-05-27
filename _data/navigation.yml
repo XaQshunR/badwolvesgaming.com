@@ -21,7 +21,7 @@ hosting:
       - title: Login
         url: https://panel.badwolvesgaming.com/
       - title: Documentation
-        url: /hosting/
+        url: /hosting/docs
   - title: Legal
     children:
       - title: Terms of Service
