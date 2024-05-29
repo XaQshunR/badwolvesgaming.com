@@ -1,28 +1,26 @@
 ---
 layout: splash
 permalink: /star-citizen/
-title: Bad Wolves Syndicate
+title: Star Citizen
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: "assets/images/star-citizen/banner.jpg"
+  overlay_image: "assets/images/star-citizen/banner.png"
   teaser: assets/images/game-logos/sc.png
-excerpt: "Bad Wolves in Space"
+excerpt: "Bad Wolves Syndicate"
 intro: 
   - excerpt: |
-      Bad Wolves Syndicate, a coalition committed to organized teamwork and strategic alliances. Guided by seasoned leadership, we excel in diverse operations—specialized conflicts to industry endeavors. Join us in redefining synergy and excellence. Unleash your potential with Bad Wolves Syndicate!
+      Bad Wolves Syndicate, a coalition committed to organized teamwork and strategic alliances. We aim to provide an environment that allows players to experience the full spectrum of Star Citizen gameplay. Our members are encouraged to participate in a variety of roles and activities, from exploration and industry to combat and logistics.
 specialties:
-  - image_path: assets/images/star-citizen/scouting.jpg
-    title: "Scouting"
-    excerpt: "Conducting covert reconnaissance missions, exploration, and intelligence gathering."
-  - image_path: assets/images/star-citizen/infiltration.jpg
-    title: "Infiltration"
-    excerpt: "Coordination of quick, targeted infantry and space combat special engagements."
-  - image_path: assets/images/star-citizen/industry.gif
+  - image_path: assets/images/star-citizen/fleet-combat.jpg
+    title: "Fleet Combat"
+    excerpt: "Take part in ship-to-ship combat and large-scale fleet engagements."
+  - image_path: assets/images/star-citizen/ground-operations.jpg
+    title: "Ground Operations"
+    excerpt: "Participate in ground-based missions and operations, including FPS combat and vehicle support."
+  - image_path: assets/images/star-citizen/industry.png
     title: "Industry"
-    excerpt: "We support frontier industry and transport efforts with our various outposts and facilities."
+    excerpt: "Help support our fleet by mining, refining, and manufacturing resources."
 apply_for_fleet:
-  - image_path: assets/images/logo.png
+  - image_path: assets/images/star-citizen/recruitment.png
     title: "Join our Organization"
     excerpt: |
       Apply to join our fleet on our official RSI page. Prospective members must join our Discord server and complete a brief interview with a member of our leadership team. Existing Bad Wolves must join here to be granted fleet clearance.
@@ -53,4 +51,4 @@ fleetyards:
 
 {% include feature_row id="join_star_citizen" type="right" %}
 
-{% include feature_row id="fleetyards" type="center" %}
+{% include feature_row id="fleetyards" type="left" %}
