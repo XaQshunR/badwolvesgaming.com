@@ -19,7 +19,7 @@ panel:
 discord:
   - excerpt: >
       You can also manage your server through our Discord bot, PanelBot. PanelBot allows you to start, stop, and restart your server, as well as view logs and more. You can invite PanelBot to your server by clicking the button below.
-    url: /hosting/
+    url: "/panelbot/"
     btn_label: "Invite"
     btn_class: "btn--primary"
     title: PanelBot
