@@ -63,4 +63,4 @@ Our goal is to provide a reliable, professional-grade hosting platform for our m
 
 Bad Wolves Gaming provides and maintains the web management interface, and provides a number of nodes for hosting game servers. We also provide PanelBot, a Discord bot, that allows you to manage your server from Discord.
 
-Members are also encouraged to host nodes of their own to help contribute to the hosting platform. If you are interested in hosting a node, please reach out to us on Discord, and we will help you get set up.
+Members are also encouraged to host nodes of their own to help contribute to the platform. If you are interested in running a node, please reach out to us on Discord, and we will help you get set up.
