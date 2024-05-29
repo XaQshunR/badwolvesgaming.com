@@ -45,7 +45,7 @@ games:
 
 {% include feature_row id="about" type="left" %}
 
-<!-- {% include feature_row id="hosting" type="right" %} -->
+{% include feature_row id="hosting" type="right" %}
 
 <!-- {% include gallery id="games" layout="third" %} -->
 
