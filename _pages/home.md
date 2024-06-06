@@ -32,13 +32,23 @@ hosting:
     title: Bad Wolves Hosting
     image_path: assets/images/hosting/logo_325x650.png
 games:
+  - image_path: assets/images/game-logos/minecraft.png
+    alt: "Minecraft"
   - url: /star-citizen/
     image_path: assets/images/game-logos/sc.png
     alt: "Star Citizen"
-  - image_path: assets/images/game-logos/minecraft.png
-    alt: "Minecraft"
+  - image_path: assets/images/game-logos/pax-dei.png
+    alt: "Pax Dei"
+  - image_path: assets/images/game-logos/ascension-wow.png
+    alt: "Ascension WoW"
   - image_path: assets/images/game-logos/eso.png
     alt: "Elder Scrolls Online"
+  - image_path: assets/images/game-logos/league-of-legends.png
+    alt: "League of Legends"
+  - image_path: assets/images/game-logos/ark.png
+    alt: "Ark: Survival Evolved"
+  - image_path: assets/images/game-logos/vtt.png
+    alt: "Virtual Tabletop Games"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -47,35 +57,29 @@ games:
 
 {% include feature_row id="hosting" type="right" %}
 
-<!-- {% include gallery id="games" layout="third" %} -->
+### Games we play
+<div class="gallery games">
+  {% for img in page.games %}
+    <figure>
+      {% if img.url %}
+        <a href="{{ img.url | relative_url }}"
+          {% if img.title %}title="{{ img.title }}"{% endif %}>
+            <img src="{{ img.image_path | relative_url }}"
+                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        </a>
+      {% else %}
+        <img src="{{ img.image_path | relative_url }}"
+            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      {% endif %}
+    </figure>
+  {% endfor %}
+  <!-- <figcaption markdown="1">
+  **Some** of the games we like to play.
+  </figcaption> -->
+</div>
+<!-- ### Some of the games we like to play. -->
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% include documents-collection.html collection=games sort_by=page.sort_by sort_order=page.sort_order type=grid %}
-</div>
-
-{:games: style="text-align: center;" height="50px"}
-[![Star Citizen](/assets/images/game-logos/sc.png "Star Citizen"){: width="200px"}](/star-citizen/)
-![Minecraft](/assets/images/game-logos/minecraft.png "Minecraft"){:width="200px"}
-![Elder Scrolls Online](/assets/images/game-logos/eso.png "Elder Scrolls Online"){:width="200px"}
-![Ark](/assets/images/game-logos/ark.png "Ark"){:width="200px"}
-![Stellaris](/assets/images/game-logos/stellaris.png "Stellaris"){:width="200px"}
-<br/>
-{:games}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% include paginator.html %}
+</div> -->

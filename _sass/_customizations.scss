@@ -1,0 +1,22 @@
+/* Custom styles for a 5-column gallery */
+.gallery.games {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem; /* Adjust the gap between images as needed */
+  row-gap: 1px; /* Adjust the vertical gap between images as needed */
+  justify-items: center; /* Centers the items horizontally within each grid cell */
+  align-items: center; /* Centers the items vertically within each grid cell */
+  justify-self: center; /* Centers the grid within the parent container */
+}
+
+.gallery.games img {
+  width: auto;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain; /* Ensures the entire image fits within the container */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
