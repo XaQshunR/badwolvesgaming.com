@@ -39,7 +39,7 @@ games:
     alt: "Minecraft"
   - image_path: assets/images/game-logos/pax-dei.png
     alt: "Pax Dei"
-  - image_path: assets/images/game-logos/vtt-2.png
+  - image_path: assets/images/game-logos/vtt.png
     alt: "Virtual Tabletop Games"
   - image_path: assets/images/game-logos/ascension-wow.png
     alt: "Ascension WoW"
