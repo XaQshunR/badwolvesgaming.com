@@ -32,21 +32,21 @@ hosting:
     title: Bad Wolves Hosting
     image_path: assets/images/hosting/logo_325x650.png
 games:
+  - image_path: assets/images/game-logos/minecraft.png
+    alt: "Minecraft"
   - url: /star-citizen/
     image_path: assets/images/game-logos/sc.png
     alt: "Star Citizen"
-  - image_path: assets/images/game-logos/minecraft.png
-    alt: "Minecraft"
   - image_path: assets/images/game-logos/pax-dei.png
     alt: "Pax Dei"
   - image_path: assets/images/game-logos/ascension-wow.png
     alt: "Ascension WoW"
-  - image_path: assets/images/game-logos/ark.png
-    alt: "Ark: Survival Evolved"
-  - image_path: assets/images/game-logos/league-of-legends.png
-    alt: "League of Legends"
   - image_path: assets/images/game-logos/eso.png
     alt: "Elder Scrolls Online"
+  - image_path: assets/images/game-logos/league-of-legends.png
+    alt: "League of Legends"
+  - image_path: assets/images/game-logos/ark.png
+    alt: "Ark: Survival Evolved"
   - image_path: assets/images/game-logos/vtt.png
     alt: "Virtual Tabletop Games"
 ---
@@ -57,7 +57,7 @@ games:
 
 {% include feature_row id="hosting" type="right" %}
 
-### Some games we play
+### Games we play
 <div class="gallery games">
   {% for img in page.games %}
     <figure>

@@ -6,6 +6,7 @@
   row-gap: 1px; /* Adjust the vertical gap between images as needed */
   justify-items: center; /* Centers the items horizontally within each grid cell */
   align-items: center; /* Centers the items vertically within each grid cell */
+  justify-self: center; /* Centers the grid within the parent container */
 }
 
 .gallery.games img {
