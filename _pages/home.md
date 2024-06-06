@@ -39,8 +39,6 @@ games:
     alt: "Minecraft"
   - image_path: assets/images/game-logos/pax-dei.png
     alt: "Pax Dei"
-  - image_path: assets/images/game-logos/vtt.png
-    alt: "Virtual Tabletop Games"
   - image_path: assets/images/game-logos/ascension-wow.png
     alt: "Ascension WoW"
   - image_path: assets/images/game-logos/ark.png
@@ -49,6 +47,8 @@ games:
     alt: "League of Legends"
   - image_path: assets/images/game-logos/eso.png
     alt: "Elder Scrolls Online"
+  - image_path: assets/images/game-logos/vtt.png
+    alt: "Virtual Tabletop Games"
 ---
 
 {% include feature_row id="intro" type="center" %}
