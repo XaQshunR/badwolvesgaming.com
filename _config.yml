@@ -25,7 +25,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.badwolvesgaming.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
