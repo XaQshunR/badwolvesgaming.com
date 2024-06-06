@@ -37,6 +37,16 @@ games:
     alt: "Star Citizen"
   - image_path: assets/images/game-logos/minecraft.png
     alt: "Minecraft"
+  - image_path: assets/images/game-logos/pax-dei.png
+    alt: "Pax Dei"
+  - image_path: assets/images/game-logos/vtt-2.png
+    alt: "Virtual Tabletop Games"
+  - image_path: assets/images/game-logos/ascension-wow.png
+    alt: "Ascension WoW"
+  - image_path: assets/images/game-logos/ark.png
+    alt: "Ark: Survival Evolved"
+  - image_path: assets/images/game-logos/league-of-legends.png
+    alt: "League of Legends"
   - image_path: assets/images/game-logos/eso.png
     alt: "Elder Scrolls Online"
 ---
@@ -47,9 +57,29 @@ games:
 
 {% include feature_row id="hosting" type="right" %}
 
-{% include gallery id="games" layout="third" %}
+### Some games we play
+<div class="gallery games">
+  {% for img in page.games %}
+    <figure>
+      {% if img.url %}
+        <a href="{{ img.url | relative_url }}"
+          {% if img.title %}title="{{ img.title }}"{% endif %}>
+            <img src="{{ img.image_path | relative_url }}"
+                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        </a>
+      {% else %}
+        <img src="{{ img.image_path | relative_url }}"
+            alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      {% endif %}
+    </figure>
+  {% endfor %}
+  <!-- <figcaption markdown="1">
+  **Some** of the games we like to play.
+  </figcaption> -->
+</div>
+<!-- ### Some of the games we like to play. -->
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% include documents-collection.html collection=games sort_by=page.sort_by sort_order=page.sort_order type=grid %}
-</div>
+</div> -->
