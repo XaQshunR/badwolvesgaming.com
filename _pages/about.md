@@ -2,8 +2,19 @@
 permalink: /about/
 type: page
 title: About
+header:
+  overlay_image: "assets/images/banner.png"
 sidebar:
   nav: "about"
+# toc: true
+# toc_label: "About"
+# toc_icon: fas fa-fw fa-solid fa-circle-info"
+classes: wide
+timeline:
+  collection: history
+  image_shape: circle
+  image_border: true
+  image_marker: true
 ---
 
 Bad Wolves Gaming is an international, non-politically correct gaming community. 
@@ -20,3 +31,7 @@ have too often experienced the fractured groups of gamers and friends. We hope
 to unite all those who find appeal in our vision so that we may have a community
 in any game our members decide to delve into. So it has become our mission to
 not only unite friends, but to unite them with new friends and new challenges.
+
+## History
+  
+  {% include timeline id="timeline" %}

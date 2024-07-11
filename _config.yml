@@ -47,10 +47,14 @@ defaults:
   # _games
   - scope:
       path: ""
-      type: pages
+      type: games
     values:
       layout: single
       author_profile: false
+      collection: games
+      sidebar:
+        - nav: "about"
+      classes: "wide"
   # _posts
   - scope:
       path: ""
@@ -67,6 +71,8 @@ collections:
   games:
     output: true
     permalink: /:collection/:path/
+  history:
+    output: true
 prose:
   rooturl: '_posts'
   siteurl: 'http://badwolvesgaming.com'
