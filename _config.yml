@@ -71,8 +71,6 @@ collections:
   games:
     output: true
     permalink: /:collection/:path/
-  history:
-    output: true
 prose:
   rooturl: '_posts'
   siteurl: 'http://badwolvesgaming.com'

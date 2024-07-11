@@ -1,6 +1,6 @@
 {% assign timeline_config = page[include.id] %}
-{% assign timeline_items = site[timeline_config.collection] | sort: 'timeline.order' %}
-{% assign image_border = timeline_config.image_border | default: false %}
+{% assign timeline_items = site.data.timelines[timeline_config.events] %}
+{% assign image_shape = timeline_config.image_shape | default: 'circle' %}
 {% assign border = timeline_config.border | default: false %}
 
 <div class="timeline">
@@ -10,19 +10,19 @@
     <div class="timeline-item {% cycle 'left', 'right' %}">
       <div class="timeline-content {% if border %}border{% endif %}">
         <div class="timeline-date">
-          {{ item.timeline.date }}
+          {{ item.date }}
         </div>
-        {% if item.timeline.image %}
-        <img src="{{ item.timeline.image }}" alt="{{ item.timeline.title }}" class="timeline-image {% if timeline_config.image_shape %}{{ timeline_config.image_shape }}{% endif %} {% if image_border %}border{% endif %} {% if item.timeline.maintain_aspect_ratio %}maintain-aspect{% endif %}">
+        {% if item.image %}
+        <img src="{{ item.image }}" alt="{{ item.title }}" class="timeline-image {% unless image_shape == 'original' %}{{ image_shape }}{% endunless %} {% unless timeline_config.image_border == false %}border{% endunless %} {% if item.maintain_aspect_ratio %}maintain-aspect{% endif %}">
         {% endif %}
-        <h2>
-          {% if item.timeline.link %}
-          <a href="{{ item.url }}">{{ item.timeline.title }}</a>
+        <h3>
+          {% if item.link %}
+          <a href="{{ item.link }}">{{ item.title }}</a>
           {% else %}
-          {{ item.timeline.title }}
+          {{ item.title }}
           {% endif %}
-        </h2>
-        <p class="timeline-description">{{ item.timeline.description }}</p>
+        </h3>
+        <p class="timeline-description">{{ item.description }}</p>
       </div>
     </div>
   {% endfor %}

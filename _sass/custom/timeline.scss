@@ -41,7 +41,7 @@
 }
 .timeline-item.left {
   left: 0;
-  text-align: right; /* Added for right justification */
+  text-align: right;
 }
 .timeline-item.right {
   left: 50%;
@@ -84,22 +84,22 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 5px;
-  max-height: 100px; /* Adjusted max-height */
+  max-height: 100px;
 }
 .timeline-image.circle {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  object-fit: cover; /* Ensure aspect ratio is maintained within circle */
+  object-fit: cover;
 }
 .timeline-image.circle.maintain-aspect {
-  object-fit: contain; /* Adjust to contain the image within the circle */
+  object-fit: contain;
 }
 .timeline-image.square {
   border-radius: 0;
 }
 .timeline-image.circle.border {
-  padding: 3px; 
+  padding: 1px; 
   border: 3px solid $border-color;
 }
 .timeline-description {
@@ -112,4 +112,36 @@
 }
 .timeline h2 a:hover {
   text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .timeline {
+    padding: 10px;
+  }
+
+  .timeline::after {
+    left: 20px;
+    margin-left: 0;
+  }
+
+  .timeline-marker {
+    left: 23px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding: 10px 20px 10px 60px;
+  }
+
+  .timeline-item.left::before,
+  .timeline-item.right::before {
+    left: 3px;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+    text-align: left;
+  }
 }

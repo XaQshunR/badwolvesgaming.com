@@ -1,0 +1,45 @@
+- image: /assets/images/legacy_logo.png
+  description: |
+    Bad Wolves Gaming was founded in September of 2012 by a group of guild-mates
+    who were tired of the drama and politics that plagued other guilds. We wanted
+    to create a community that was focused on having a good time first and that
+    could stick together no matter what game we play.
+  date: "September 2012"
+  title: "Founded"
+- description: "We did some stuff"
+  date: "2012-?"
+  title: "Early Years"
+- link: /announcement/2022/03/26/sotp_rebirth.html
+  image: /assets/images/game-logos/sc.png
+  maintain_aspect_ratio: true
+  description: |
+    After a period of inactivity, we experienced a resurgence in 2022. 
+    During this time we really honed-in on our core games including Star Citizen, 
+    Minecraft, ESO, and more. We also launched our new community website, new Discord 
+    server, and started working on our own game server hosting platform.
+  date: "2021-2022"
+  title: "Rebirth"
+- date: "December 2023"
+  title: "New Logo"
+  image: /assets/images/logo.png
+  description: |
+    We developed a new logo, banner, and more and worked to ensure our image was
+    consistent across all platforms.
+- date: "May 2024"
+  title: "Bad Wolves Hosting"
+  image: /assets/images/hosting/logo.png
+  link: /hosting/
+  description: |
+    We officially launched our game server hosting platform.
+- date: "June 2024"
+  title: "New Adventures"
+  image: /assets/images/author-profile/fatetaker.png
+  link: /2024/06/05/sotp.html
+  description: |
+    Fatetaker, our community leader and founding member, decided to 
+    step down and pass the torch.
+- date: "Today"
+  title: "Present"
+  description: |
+    Today we continue to grow and expand our community. We are always looking
+    for new members to join the pack.

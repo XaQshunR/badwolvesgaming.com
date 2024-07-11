@@ -11,10 +11,7 @@ sidebar:
 # toc_icon: fas fa-fw fa-solid fa-circle-info"
 classes: wide
 timeline:
-  collection: history
-  image_shape: circle
-  image_border: true
-  image_marker: true
+  events: history
 ---
 
 Bad Wolves Gaming is an international, non-politically correct gaming community. 
@@ -33,5 +30,5 @@ in any game our members decide to delve into. So it has become our mission to
 not only unite friends, but to unite them with new friends and new challenges.
 
 ## History
-  
-  {% include timeline id="timeline" %}
+
+{% include timeline id="timeline" %}
