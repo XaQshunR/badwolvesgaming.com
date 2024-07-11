@@ -13,6 +13,15 @@ about:
         url: /roles/
       - title: "Rules"
         url: /rules/
+  - title: "Games We Play"
+    url: /games/
+    collection: games
+    children:
+      - title: "Minecraft"
+        url: /games/minecraft/
+      - title: "Star Citizen"
+        url: /games/star-citizen/
+      - collection: games
 hosting:
   - title: "Quick Links"
     children:

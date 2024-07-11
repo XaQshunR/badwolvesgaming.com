@@ -8,6 +8,8 @@ sidebar:
 toc: true
 toc_label: "Pack Code of Conduct"
 toc_icon: fas fa-fw fa-gavel
+header:
+  overlay_image: assets/images/banner.png
 ---
 
 Not following these simple guidelines will get you removed from Bad Wolves. Our
