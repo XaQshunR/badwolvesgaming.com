@@ -28,6 +28,8 @@ hosting:
     children:
       - title: "About"
         url: /hosting/
+      - title: Supported Games
+        url: /hosting/#supported-gamesapplications
       - title: "Login"
         url: https://panel.badwolvesgaming.com/
   - title: "Legal"
