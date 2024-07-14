@@ -5,11 +5,6 @@ toc: true
 toc_label: "Terms of Service"
 toc_icon: "fas fa-fw fa-file-contract"
 toc_sticky: false
-sidebar:
-  - image: /assets/images/hosting/logo.png
-    title: Bad Wolves Hosting
-    text: A free server hosting service available to pack members.
-    nav: "hosting"
 ---
 
 Effective Date: April 26, 2024

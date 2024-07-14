@@ -1,14 +1,14 @@
 ---
-layout: splash
-permalink: /star-citizen/
 title: Star Citizen
+layout: splash
+classes: breadcrumb
 header:
   overlay_image: "assets/images/star-citizen/banner.png"
   teaser: assets/images/game-logos/sc.png
-excerpt: "Bad Wolves Syndicate"
+excerpt: "Bad Wolves"
 intro: 
   - excerpt: |
-      Bad Wolves Syndicate, a coalition committed to organized teamwork and strategic alliances. We aim to provide an environment that allows players to experience the full spectrum of Star Citizen gameplay. Our members are encouraged to participate in a variety of roles and activities, from exploration and industry to combat and logistics.
+      Bad Wolves is a coalition committed to organized teamwork and strategic alliances. We aim to provide an environment that allows players to experience the full spectrum of Star Citizen gameplay. Our members are encouraged to participate in a variety of roles and activities, from exploration and industry to combat and logistics.
 specialties:
   - image_path: assets/images/star-citizen/fleet-combat.jpg
     title: "Fleet Combat"

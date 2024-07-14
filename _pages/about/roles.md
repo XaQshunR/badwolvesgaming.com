@@ -1,9 +1,7 @@
 ---
 type: page
-permalink: /roles/
+permalink: /about/roles/
 title: Roles
-sidebar:
-  nav: "about"
 toc: true
 toc_label: "Roles"
 toc_icon: fas fa-fw fa-solid fa-sitemap"

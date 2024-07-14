@@ -1,0 +1,72 @@
+history:
+  - image: /assets/images/classic-bw-logos/legacy_logo.png
+    description: |
+      Bad Wolves Gaming was founded from the ashes of Doomriders Mercenary 
+      Corps of Mech Warrior Online. We were tired of the drama and politics 
+      that plauged other guilds and wanted to create a community that would 
+      stick together and focus on having a good time.
+    date: "September 2012"
+    title: "Founded"
+  - date: "2012-2014"
+    title: "Early Years"
+    description: |
+      After our first official division, Day-Z, was launched 
+      in 2012, we quickly followed that up with divisions in Minecraft, FFXIV, 
+      Warframe, and Eve. Some of which continues to live on today. FFXIV would grow
+      to be the community's largest divison to date boasting 500+ active members.
+    image: /assets/images/game-logos/dayz_classic.png
+  - date: "2014"
+    image: /assets/images/author-profile/fatetaker.png
+    title: "Changes"
+    description: |
+      In 2014, Fatetaker, one of the original founding members, took over as our 
+      community leader. He would continue to enable Bad Wolves to thrive 
+      through the next decade.
+  - date: "2014-2019"
+    title: "Growth"
+    image: /assets/images/classic-bw-logos/eve_logo.png
+    description: |
+      This period would mark the peak of our activity in Eve, Warframe, and other 
+      legacy divisions. Divisions were added in Ark, Atlas and a few more. Ark 
+      would grow to become one of our most successful divisions with many members 
+      continuing that success into the Atlas division.
+  - date: "2019-2021"
+    image: /assets/images/game-logos/minecraft_creeper.png
+    title: "End of an Era"
+    description: |
+      2019 marked the end of our official Atlas division, and with it a decline
+      in focused activity. With several members forced to stay home in 2020, we 
+      continued to maintain activity through our Minecraft server, and a few 
+      members remaining in legacy divisions.
+  - url: /announcement/2022/03/26/sotp_rebirth.html
+    image: /assets/images/star-citizen/sc-character.png
+    description: |
+      After a period of inactivity, we experienced a resurgence in 2021 starting 
+      with the offical launch of our Star Citizen division. We created a new 
+      website, Discord, and started working on our own game hosting platform. 
+      During this time, Bad Wolves maintained several Minecraft servers, returned 
+      to ESO, briefly explored New World, and more.
+    date: "2021-2024"
+    title: "Rebirth"
+  - date: "May 2024"
+    title: "Bad Wolves Hosting"
+    image: /assets/images/hosting/logo.png
+    url: /hosting/
+    description: |
+      After several iterations, we finally officially launched our community 
+      hosting platform, Bad Wolves Hosting, with the goal of enabling our 
+      community to host their own game servers at no cost.
+  - date: "June 2024"
+    title: "New Adventures"
+    image: /assets/images/author-profile/dy1io.png
+    url: /2024/06/05/sotp.html
+    description: |
+      After a decade at the helm, our community leader, Fatetaker, decided to take
+      a step back and pass the torch to a new leader, dy1io.
+  - date: "Present"
+    url: /join/
+    image: /assets/images/logo.png
+    title: "Join The Pack"
+    description: |
+      Today we continue to grow and expand our community. You can find us in Pax
+      Dei, Star Citizen, and more.

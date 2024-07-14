@@ -1,0 +1,143 @@
+/* Custom styles for Timelines */
+
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  list-style: none;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: $timeline-color;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.timeline-marker {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: $timeline-color;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.start-marker, .end-marker {
+  position: absolute;
+  top: 0;
+}
+.end-marker {
+  bottom: 0;
+  top: auto;
+}
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+.timeline-item.right {
+  left: 50%;
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 25%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: $timeline-color;
+  z-index: 1;
+}
+.timeline-item.left::before {
+  right: -10px;
+}
+.timeline-item.right::before {
+  left: -10px;
+}
+.timeline-date {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.timeline-content {
+  position: relative;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: inherit;
+  background: none;
+  padding-top: 25%;
+}
+.timeline-content.border {
+  padding: 5px; 
+  border: 3px solid $border-color;
+}
+.timeline-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+  max-height: 150px;
+}
+.timeline-image.circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.timeline-image.circle.maintain-aspect {
+  object-fit: contain;
+}
+.timeline-image.square {
+  border-radius: 0;
+  width: 150px;
+  height: 150px;
+}
+.timeline-image.circle.border {
+  padding: 0px;
+  border: 3px solid $border-color;
+}
+.timeline-description {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .timeline {
+    padding: 10px;
+  }
+
+  .timeline::after {
+    left: 20px;
+    margin-left: 0;
+  }
+
+  .timeline-marker {
+    left: 23px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding: 10px 20px 10px 60px;
+  }
+
+  .timeline-item.left::before,
+  .timeline-item.right::before {
+    left: 3px;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+    text-align: left;
+  }
+}

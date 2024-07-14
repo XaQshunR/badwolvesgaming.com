@@ -1,8 +1,7 @@
 ---
 type: page
-permalink: /rules/
+permalink: /about/rules/
 title: Code of Conduct
-author: "Fatetaker"
 sidebar:
   nav: "about"
 toc: true
