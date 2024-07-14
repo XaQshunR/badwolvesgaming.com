@@ -16,13 +16,13 @@
         <img src="{{ item.image }}" alt="{{ item.title }}" class="timeline-image {% unless image_shape == 'original' %}{{ image_shape }}{% endunless %} {% unless timeline_config.image_border == false %}border{% endunless %} {% if item.maintain_aspect_ratio %}maintain-aspect{% endif %}">
         {% endif %}
         <h3>
-          {% if item.link %}
-          <a href="{{ item.link }}">{{ item.title }}</a>
+          {% if item.url %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
           {% else %}
           {{ item.title }}
           {% endif %}
         </h3>
-        <p class="timeline-description">{{ item.description }}</p>
+        <p class="timeline-description">{{ item.description | markdownify }}</p>
       </div>
     </div>
   {% endfor %}

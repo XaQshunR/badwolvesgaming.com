@@ -2,7 +2,7 @@
 
 .timeline {
   position: relative;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   list-style: none;
@@ -84,12 +84,12 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 5px;
-  max-height: 100px;
+  max-height: 150px;
 }
 .timeline-image.circle {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 .timeline-image.circle.maintain-aspect {
@@ -97,22 +97,18 @@
 }
 .timeline-image.square {
   border-radius: 0;
+  width: 150px;
+  height: 150px;
 }
 .timeline-image.circle.border {
-  padding: 1px; 
+  padding: 0px;
   border: 3px solid $border-color;
 }
 .timeline-description {
   font-style: italic;
   margin-bottom: 10px;
 }
-.timeline h2 a {
-  text-decoration: none;
-  color: inherit;
-}
-.timeline h2 a:hover {
-  text-decoration: underline;
-}
+
 
 /* Mobile Styles */
 @media (max-width: 768px) {

@@ -1,13 +1,12 @@
 ---
 permalink: /hosting/
-type: page
+header:
+  overlay_image: /assets/images/hosting/banner.png
+title: Hosting
 classes: wide
 sidebar:
-  - image: /assets/images/hosting/logo.png
-    title: Bad Wolves Hosting
-    text: A free server hosting service available to pack members.
-    nav: "hosting"
-title: Hosting
+  - text: A free server hosting service available to pack members.
+    nav: "about"
 panel:
   - excerpt: >
       Our management panel is an easy-to-use web-based interface that allows you to manage your server, view logs, and more. You can access the panel by clicking the button below.

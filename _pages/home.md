@@ -1,7 +1,7 @@
 ---
 layout: splash
-#hidden: true
 permalink: /
+title: Bad Wolves Gaming
 excerpt: >
   18+ Online Community
 header:
@@ -17,7 +17,7 @@ intro:
       A global, unapologetically diverse 18+ community, fostering camaraderie across various games. Rabies delivered daily.
 about:
   - excerpt: >
-      Learn more about the pack and our history.
+      Learn more about the pack, what games we play, and our history.
     url: "/about/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
@@ -31,24 +31,21 @@ hosting:
     btn_class: "btn--primary"
     title: Bad Wolves Hosting
     image_path: assets/images/hosting/logo_325x650.png
-games:
-  - image_path: assets/images/game-logos/minecraft.png
-    alt: "Minecraft"
-  - url: /star-citizen/
-    image_path: assets/images/game-logos/sc.png
+games_gallery:
+  - image_path: assets/images/game-logos/sc.png
     alt: "Star Citizen"
   - image_path: assets/images/game-logos/pax-dei.png
     alt: "Pax Dei"
-  - image_path: assets/images/game-logos/ascension-wow.png
-    alt: "Ascension WoW"
+  - image_path: assets/images/game-logos/minecraft.png
+    alt: "Minecraft"
   - image_path: assets/images/game-logos/eso.png
     alt: "Elder Scrolls Online"
-  - image_path: assets/images/game-logos/league-of-legends.png
-    alt: "League of Legends"
-  - image_path: assets/images/game-logos/ark.png
-    alt: "Ark: Survival Evolved"
-  - image_path: assets/images/game-logos/vtt.png
-    alt: "Virtual Tabletop Games"
+games:
+  - title: >
+      Explore the games we play.
+    url: "/about/#games-we-play"
+    btn_label: "View Games"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -57,9 +54,8 @@ games:
 
 {% include feature_row id="hosting" type="right" %}
 
-### Games we play
 <div class="gallery games">
-  {% for img in page.games %}
+  {% for img in page.games_gallery %}
     <figure>
       {% if img.url %}
         <a href="{{ img.url | relative_url }}"
@@ -73,13 +69,6 @@ games:
       {% endif %}
     </figure>
   {% endfor %}
-  <!-- <figcaption markdown="1">
-  **Some** of the games we like to play.
-  </figcaption> -->
 </div>
-<!-- ### Some of the games we like to play. -->
 
-<!-- {% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html collection=games sort_by=page.sort_by sort_order=page.sort_order type=grid %}
-</div> -->
+{% include feature_row id="games" type="center" %}

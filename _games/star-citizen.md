@@ -1,5 +1,7 @@
 ---
 title: Star Citizen
+layout: splash
+classes: breadcrumb
 header:
   overlay_image: "assets/images/star-citizen/banner.png"
   teaser: assets/images/game-logos/sc.png

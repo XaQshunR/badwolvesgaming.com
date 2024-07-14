@@ -9,31 +9,19 @@ about:
   - title: "About"
     url: /about/
     children:
+      - title: "Games We Play"
+        url: /about/#games-we-play
       - title: History
         url: /about/#history
       - title: Roles
-        url: /roles/
+        url: /about/roles/
       - title: "Rules"
-        url: /rules/
-  - title: "Games We Play"
-    url: /games/
+        url: /about/rules/
+  - title: "Hosting"
     children:
-      - title: "Minecraft"
-        url: /games/minecraft/
-      - title: "Star Citizen"
-        url: /games/star-citizen/
-hosting:
-  - title: "Quick Links"
-    children:
-      - title: About
+      - title: "Bad Wolves Hosting"
         url: /hosting/
-      - title: Login
-        url: https://panel.badwolvesgaming.com/
-      - title: Documentation
-        url: /hosting/docs
-  - title: Legal
-    children:
-      - title: Terms of Service
+      - title: "Terms of Service"
         url: /hosting/terms-of-service
-      - title: Privacy Policy
+      - title: "Privacy Policy"
         url: /hosting/privacy-policy
