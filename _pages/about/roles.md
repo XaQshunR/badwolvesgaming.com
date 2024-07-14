@@ -5,6 +5,7 @@ title: Roles
 toc: true
 toc_label: "Roles"
 toc_icon: fas fa-fw fa-solid fa-sitemap"
+toc_sticky: true
 ---
 
 Bad Wolves Gaming operates on an equal playing field. All members are treated equally no matter how long they've been here or 

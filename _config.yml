@@ -54,6 +54,7 @@ defaults:
         - nav: "about"
       header:
         overlay_image: assets/images/banner.png
+      breadcrumbs: true
   # hosting
   - scope:
       path: "/_pages/hosting/*"
@@ -63,7 +64,9 @@ defaults:
       sidebar:
         - title: Bad Wolves Hosting
           text: A free server hosting service available to pack members.
-          nav: "about"
+          nav: "hosting"
+          image: /assets/images/hosting/logo.png
+      breadcrumbs: true
   # _posts
   - scope:
       path: ""

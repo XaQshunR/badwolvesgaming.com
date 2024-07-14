@@ -19,8 +19,19 @@ about:
         url: /about/rules/
   - title: "Hosting"
     children:
-      - title: "Bad Wolves Hosting"
+      - title: "About"
         url: /hosting/
+      - title: "Login"
+        url: https://panel.badwolvesgaming.com/
+hosting:
+  - title: "Hosting"
+    children:
+      - title: "About"
+        url: /hosting/
+      - title: "Login"
+        url: https://panel.badwolvesgaming.com/
+  - title: "Legal"
+    children:
       - title: "Terms of Service"
         url: /hosting/terms-of-service
       - title: "Privacy Policy"

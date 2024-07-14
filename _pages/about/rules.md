@@ -7,6 +7,7 @@ sidebar:
 toc: true
 toc_label: "Pack Code of Conduct"
 toc_icon: fas fa-fw fa-gavel
+toc_sticky: true
 ---
 
 Not following these simple guidelines will get you removed from Bad Wolves. Our

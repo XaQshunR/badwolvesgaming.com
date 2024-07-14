@@ -6,6 +6,7 @@ header:
   overlay_image: "assets/images/banner.png"
 sidebar:
   nav: "about"
+breadcrumbs: false
 classes: wide
 timeline:
   events: history
@@ -65,10 +66,10 @@ not only unite friends, but to unite them with new friends and new challenges.
 
 ## Games We Play
 
-{% include feature_row id="star-citizen" type="left" %}
-{% include feature_row id="pax-dei" type="right" %}
-{% include feature_row id="minecraft" type="left" %}
-{% include feature_row id="table-top" type="right" %}
+{% include feature_row id="star-citizen" type="right" %}
+{% include feature_row id="pax-dei" type="left" %}
+{% include feature_row id="minecraft" type="right" %}
+{% include feature_row id="table-top" type="left" %}
 
 ### Other Divisions
 

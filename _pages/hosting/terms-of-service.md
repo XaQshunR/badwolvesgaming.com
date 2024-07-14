@@ -4,7 +4,7 @@ permalink: /hosting/terms-of-service/
 toc: true
 toc_label: "Terms of Service"
 toc_icon: "fas fa-fw fa-file-contract"
-toc_sticky: false
+toc_sticky: true
 ---
 
 Effective Date: April 26, 2024
