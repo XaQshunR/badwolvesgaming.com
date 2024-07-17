@@ -2,18 +2,19 @@
 {% assign timeline_items = site.data.timelines[timeline_config.events] %}
 {% assign image_shape = timeline_config.image_shape | default: 'circle' %}
 {% assign border = timeline_config.border | default: false %}
+{% assign wide_view = timeline_config.wide | default: false %}
 
-<div class="timeline">
-  <div class="timeline-marker start-marker"></div>
+<div class="timeline{% if wide_view %} wide{% endif %}">
+  <div class="timeline-marker start-marker{% if wide_view %} wide{% endif %}"></div>
 
   {% for item in timeline_items %}
-    <div class="timeline-item {% cycle 'left', 'right' %}">
+    <div class="timeline-item {% if wide_view %}wide{% else %}{% cycle 'left', 'right' %}{% endif %}">
       <div class="timeline-content {% if border %}border{% endif %}">
         <div class="timeline-date">
           {{ item.date }}
         </div>
         {% if item.image %}
-        <img src="{{ item.image }}" alt="{{ item.title }}" class="timeline-image {% unless image_shape == 'original' %}{{ image_shape }}{% endunless %} {% unless timeline_config.image_border == false %}border{% endunless %} {% if item.maintain_aspect_ratio %}maintain-aspect{% endif %}">
+        <img src="{{ item.image }}" alt="{{ item.title }}" class="timeline-image {% unless image_shape == 'original' %}{{ image_shape }}{% endunless %} {% unless timeline_config.image_border == false %}border{% endunless %} {% if item.maintain_aspect_ratio %}maintain-aspect{% endif %}" {% if item.image_position %}style="{{ item.image_position }}"{% endif %}>
         {% endif %}
         <h3>
           {% if item.url %}
@@ -27,5 +28,5 @@
     </div>
   {% endfor %}
 
-  <div class="timeline-marker end-marker"></div>
+  <div class="timeline-marker end-marker{% if wide_view %} wide{% endif %}"></div>
 </div>
