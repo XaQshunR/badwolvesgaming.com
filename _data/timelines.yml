@@ -15,13 +15,6 @@ history:
       Warframe, and Eve. Some of which continues to live on today. FFXIV would grow
       to be the community's largest divison to date boasting 500+ active members.
     image: /assets/images/game-logos/dayz_classic.png
-  - date: "2014"
-    image: /assets/images/author-profile/fatetaker.png
-    title: "Changes"
-    description: |
-      Fatetaker, one of the original founding members, took over as our 
-      community leader. He would continue to enable Bad Wolves to thrive 
-      through the next decade.
   - date: "2014-2019"
     title: "Growth"
     image: /assets/images/classic-bw-logos/eve_logo.png
@@ -56,13 +49,6 @@ history:
       After several iterations, we finally officially launched our community 
       hosting platform, Bad Wolves Hosting, with the goal of enabling our 
       community to host their own game servers at no cost.
-  - date: "June 2024"
-    title: "New Adventures"
-    image: /assets/images/author-profile/dy1io.png
-    url: /2024/06/05/sotp.html
-    description: |
-      After a decade at the helm, our community leader, Fatetaker, decided to take
-      a step back and pass the torch to a new leader, dy1io.
   - date: "Present"
     url: /join/
     image: /assets/images/logo.png
